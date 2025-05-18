@@ -1,50 +1,48 @@
-# Welcome to your Expo app 👋
+# 📱 React Native Calculator App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple and intuitive Calculator app built with **React Native**. This application provides basic arithmetic operations with a clean and user-friendly interface, suitable for both Android and iOS platforms.
 
-## Get started
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+- Basic arithmetic operations: Addition, Subtraction, Multiplication, Division
+- Responsive design for different screen sizes
+- Clear and easy-to-use UI
+- Cross-platform: works on both Android and iOS
+- Built with React Native functional components and hooks
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🛠️ Tech Stack
 
-In the output, you'll find options to open the app in a
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/) *(optional, if used for development)*
+- JavaScript (ES6+)
+- Styled with custom or native styling
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🚀 Getting Started
 
-## Get a fresh project
+Follow the steps below to run the app on your local machine:
 
-When you're ready, run:
+### Prerequisites
+
+- Node.js (v14+)
+- npm or yarn
+- React Native CLI or Expo CLI
+- Android Studio or Xcode (for emulator/simulator)
+
+### Installation
 
 ```bash
-npm run reset-project
-```
+# Clone the repository
+git clone https://github.com/PrasathRavichandran/calculator-app.git
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# Navigate into the project directory
+cd calculator-app
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Install dependencies
+npm install
+# or
+yarn install
