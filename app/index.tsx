@@ -1,7 +1,8 @@
 import ButtonList from "@/components/buttonList";
+import Digit from "@/components/digit";
 import { AppContext } from "@/context/AppContext";
 import { useContext } from "react";
-import { Dimensions, StyleSheet, Text, View } from "react-native";
+import { Dimensions, StyleSheet, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
 const dimensions = Dimensions.get("screen");
@@ -12,10 +13,8 @@ export default function Index() {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <View style={Styles.display}>
-        <Text style={Styles.heading}>{currentValue}</Text>
-        {currentValue !== "" ? (
-          <Text style={Styles.answer}>{result}</Text>
-        ) : null}
+        <Digit>{currentValue}</Digit>
+        {currentValue !== "" ? <Digit isAnswer>{result}</Digit> : null}
       </View>
       <View style={Styles.keyboardLayout}>
         <ButtonList
@@ -38,16 +37,8 @@ const Styles = StyleSheet.create({
   },
   display: {
     marginRight: dimensions.width / 20,
-    marginTop: dimensions.height / 50,
-  },
-  heading: {
-    fontSize: dimensions.fontScale * 100,
-    writingDirection: "rtl",
-    textAlign: "right",
-  },
-  answer: {
-    writingDirection: "rtl",
-    textAlign: "right",
-    fontSize: dimensions.fontScale * 64,
+    flexDirection: "column",
+    justifyContent: "center",
+    height: 300,
   },
 });
