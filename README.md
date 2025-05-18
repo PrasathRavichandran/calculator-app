@@ -2,6 +2,11 @@
 
 A simple and intuitive Calculator app built with **React Native**. This application provides basic arithmetic operations with a clean and user-friendly interface, suitable for both Android and iOS platforms.
 
+<div align="center">
+  <img src="screenshots/calculator-1.png" alt="Calculator Screenshot 1" width="250" style="margin-right: 10px;" />
+  <img src="screenshots/calculator-2.png" alt="Calculator Screenshot 2" width="250" style="margin-right: 10px;" />
+  <img src="screenshots/calculator-3.png" alt="Calculator Screenshot 3" width="250" style="margin-right: 10px;" />
+</div>
 
 ## ✨ Features
 
