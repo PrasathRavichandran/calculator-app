@@ -1,0 +1,9 @@
+- In index file, add styling for the currentValue
+    1. if the text is exceed screen, update fontsize 
+    2. fix mini of 15 to 20 characters only.
+    3. parse operator to icon, based on the conditions
+- In app context file,
+    1. add condition for repeated operator. Eg: 76++45 => 76+
+    2. add equal functionality, if clicked display the end result.
+    3. once the end result is show, the next click should be new entry
+    enchancement 4. if we get end result, add it to local storage and display in history page.

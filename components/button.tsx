@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Dimensions, StyleSheet, Text, TouchableOpacity } from "react-native";
 
+import { AppContext } from "@/context/AppContext";
 import Entypo from "@expo/vector-icons/Entypo";
 import FontAwesome6 from "@expo/vector-icons/FontAwesome6";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
@@ -25,6 +26,8 @@ const baseFontSize = 30;
 const SCALEDFONTSIZE = baseFontSize * dimensions.fontScale;
 
 export default function Button({ icon, label, isLast }: ButtonProps) {
+  const { setValue } = useContext(AppContext);
+
   let content = null;
   switch (icon?.type) {
     case "fta6":
@@ -53,6 +56,7 @@ export default function Button({ icon, label, isLast }: ButtonProps) {
   return (
     <TouchableOpacity
       style={[Styles.button, { backgroundColor: isLast ? teal : cloud }]}
+      onPress={() => setValue(icon?.name as string || label as string)}
     >
       {content}
     </TouchableOpacity>
