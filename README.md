@@ -1,10 +1,10 @@
 
 <div align="center">
-  <img src="https://github.com/PrasathRavichandran/calculator-app/blob/main/assets/previewed/image1.jpeg" alt="Calculator Screenshot 1" width="195" style="margin-right: 20px;" />
-  <img src="https://github.com/PrasathRavichandran/calculator-app/blob/main/assets/previewed/image2.jpeg" alt="Calculator Screenshot 2" width="195" style="margin-right: 20px;" />
-  <img src="https://github.com/PrasathRavichandran/calculator-app/blob/main/assets/previewed/image3.jpeg" alt="Calculator Screenshot 3" width="195" style="margin-right: 20px;" />
-  <img src="https://github.com/PrasathRavichandran/calculator-app/blob/main/assets/previewed/image4.jpeg" alt="Calculator Screenshot 4" width="195" style="margin-right: 20px;" />
-  <img src="https://github.com/PrasathRavichandran/calculator-app/blob/main/assets/previewed/image5.jpeg" alt="Calculator Screenshot 5" width="195" style="margin-right: 20px;" />
+  <img src="https://github.com/PrasathRavichandran/calculator-app/blob/main/assets/previewed/image1.jpeg" alt="Calculator Screenshot 1" width="190" style="margin-right: 20px;" />
+  <img src="https://github.com/PrasathRavichandran/calculator-app/blob/main/assets/previewed/image2.jpeg" alt="Calculator Screenshot 2" width="190" style="margin-right: 20px;" />
+  <img src="https://github.com/PrasathRavichandran/calculator-app/blob/main/assets/previewed/image3.jpeg" alt="Calculator Screenshot 3" width="190" style="margin-right: 20px;" />
+  <img src="https://github.com/PrasathRavichandran/calculator-app/blob/main/assets/previewed/image4.jpeg" alt="Calculator Screenshot 4" width="190" style="margin-right: 20px;" />
+  <img src="https://github.com/PrasathRavichandran/calculator-app/blob/main/assets/previewed/image5.jpeg" alt="Calculator Screenshot 5" width="190" style="margin-right: 20px;" />
 </div>
 
 <div align="center" style="margin-top: 100px;">
