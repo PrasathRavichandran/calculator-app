@@ -38,9 +38,23 @@ A simple and intuitive Calculator app built with **React Native**. This applicat
 - JavaScript (ES6+)
 - Styled with custom or native styling
 
-<a href="https://github.com/PrasathRavichandran/calculator-app/blob/main/assets/Simulator%20Screen%20Recording%20-%20iPhone%2016%20Plus%20-%202025-05-18%20at%2013.31.12.mp4" target="_blank">
-  <p>▶️ Watch Demo</p>
-</a>
+## Showcase
+
+<div align="center">
+
+<div style="width:400px;">
+  
+https://github.com/user-attachments/assets/85a7ba3e-d8f0-405f-87f4-0f0d133c3674
+
+</div>
+
+<div style="width: 400px;">
+
+https://github.com/user-attachments/assets/cfcab55a-8362-4d22-955e-fd3353c72148
+
+</div>
+
+</div>
 
 ## 🚀 Getting Started
 
