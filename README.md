@@ -64,6 +64,3 @@ cd calculator-app
 
 # Install dependencies
 bun install
-
-
-
